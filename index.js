@@ -1,6 +1,6 @@
 var five = require("johnny-five"),
   lcd,
-  board = new five.Board({ port: "COM6" });
+  board = new five.Board({ port: "COM2" });
 const { Led, Motor, Pin, Thermometer } = require("johnny-five");
 const axios = require("axios");
 let counter = 0;
